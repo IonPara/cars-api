@@ -1,24 +1,27 @@
 # Favorite-Cars-App
 
 📃 **Content:**
-- [General Information ](#General-Information)
+- [General Information](#General-Information)
 - [Language used](#languages)
 - [Setup](#setup)
 - [Contact](#contact)
 
  ## 📑 General Information:
-This project contains a full stack web application, it was built using Express.js for the server side and React.js for the front end side.
-The app pulls the data from the server and display it in form of a bootstrap table, the app is interactive and it lets the user add a new car, remove a car by clicking the button and update the information of a car.
+This project contains a full stack web application, it was built using MERN (MongoDB, Express, React, Node.js) stack.
+The app pulls the data from the database and display it in form of a table, the app is interactive and it lets the user add a new car, remove a car  and update the information of a car in the app and in the database.
 
 ### 🔣 <a id="languages">Technoloogies used </a>:
 
-<p align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
+<p align="left">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="expressjs" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="expressjs" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> <img </p>
+</p>
 
 ## 📘 <a id="setup">Setup</a>:
 
@@ -31,7 +34,8 @@ Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
 
 
-https://user-images.githubusercontent.com/84988051/215757941-2e696227-a762-4ffb-9b8e-5c951b8d8426.mp4
+https://user-images.githubusercontent.com/84988051/216625676-0c5a7c40-9c53-42d5-b935-306e085df8d1.mp4
+
 
 
 ## ✉️ <a id="contact">Contact</a>:
