@@ -5,14 +5,19 @@ const app = express();
 // Use body-parser middleware to extracts the entire body portion of an incoming request and expose it on req.body
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
+console.log(process.env);
+// import dotenv so we could use the key from the app.env file
+require("dotenv").config({ path: "./app.env" });
 // Connect mongoose with the database
 mongoose.set("strictQuery", true);
-mongoose.connect(
-  "mongodb+srv://para_ion:i6eznwCoa1dJDNcc@cluster0.ebtou5f.mongodb.net/?retryWrites=true&w=majority",
-  { useNewUrlParser: true }
-);
-
+mongoose.connect(process.env.API_KEY, { useNewUrlParser: true });
+mongoose.connection.on("error", function () {
+  console.log("Could not connect to the database. Exiting now...");
+  process.exit();
+});
+mongoose.connection.once("open", function () {
+  console.log("Successfully connected to the database");
+});
 const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
