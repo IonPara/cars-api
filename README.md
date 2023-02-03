@@ -2,7 +2,7 @@
 
 📃 **Content:**
 - [General Information](#General-Information)
-- [Language used](#languages)
+- [Technologies used](#technologies)
 - [Setup](#setup)
 - [Contact](#contact)
 
@@ -10,7 +10,7 @@
 This project contains a full stack web application, it was built using MERN (MongoDB, Express, React, Node.js) stack.
 The app pulls the data from the database and display it in form of a table, the app is interactive and it lets the user add a new car, remove a car  and update the information of a car in the app and in the database.
 
-### 🔣 <a id="languages">Technoloogies used </a>:
+### 🔣 <a id="technologies">Technologies used </a>:
 
 <p align="left">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
