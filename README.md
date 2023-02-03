@@ -27,7 +27,8 @@ The app pulls the data from the database and display it in form of a table, the 
 
 1. [Download Zip file](https://github.com/IonPara/Cars-Store-App/archive/refs/heads/master.zip)
 2. [Download **Node.js**](https://nodejs.org/dist/v18.13.0/node-v18.13.0-x64.msi)
-3. Navigate to project directory, run: **npm start**
+3. Navigate to project directory, run: **npm install**
+4. Run: **npm start**
 
 Runs the app in the development mode.
 
