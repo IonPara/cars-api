@@ -1,4 +1,4 @@
-# Cars--Store-App
+# Cars-Store-App
 
 📃 **Content:**
 - [General Information](#General-Information)
