@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Lobster', cursive;
+}
+
+
+/* App section */
+.App {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    color: white;
+    background-image: url('./images/car-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+}
+ 
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* ---------------------Header section ---------------------------- */
+.app-header, .footer {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    position: fixed;
+    animation: load 300ms;
+}
+
+.nav-links {
+    width: 20rem;
+    font-size: 1.5rem;
+}
+
+.link {
+    color: white;
+}
+
+
+.link:hover, .link:active {
+    color: #0275d8;
+    transform: scale(1.2);
+}
+
+.link:link {
+    text-decoration: none;
+}
+
+/* ---------------------Footer section ---------------------------- */
+
+.footer {
+    top: 90%;
+}
+
+.copyrights {
+    width: 10rem;
+    height: 2rem;
+    margin: auto;
+    position: relative;
+    top: 2rem;
+    font-size: 1.2rem;
+}
+
+/* ---------------------Table section ---------------------------- */
+.table-container {
+    padding: 100px;
+    min-height: 100vh;
+}
+
+.cars-table {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 500;
+    max-width: 50rem;
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+    opacity: .95;
+    animation: table 300ms;
+}
+
+
+.icon {
+    font-size: larger;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+}
+
+.edit-alert {
+    position: absolute !important;
+    top: 1px;
+    width: 380px;
+    height: 450px;
+    font-size: 1rem;
+    border-radius: 20px !important;
+}
+
+.hide {
+    display: none;
+}
+
+.image {
+    height: 300px;
+    max-width: 500px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+#image-higher {
+    top: 100px;
+}
+
+/* ---------------------Add car section ---------------------------- */
+.add-car-container {
+    min-height: 100vh;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add-car-container h2 {
+    margin-top: 50px;
+    color: white;
+}
+
+
+.add-car-form {
+    margin: auto;
+    width: 30rem;
+    max-width: 100%;
+    margin-top: 1rem;
+    border: 2px solid rgb(87, 86, 86);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 10px 8px #888888;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, .7);
+    animation: load 300ms;
+
+}
+
+/* ---------------------About page section ---------------------------- */
+.about {
+    height: 100vh;
+}
+
+.about p {
+    font-size: 1.8rem;
+    color: #0275d8;
+    padding: 20px;
+    border: 2px solid rgb(87, 86, 86);
+    box-shadow: 5px 10px 8px #888888;
+    background-color: rgba(0, 0, 0, .7);
+    animation: load 300ms;
+}
+
+.input {
+    max-width: 130px;
+    margin-inline: 5px;
+}
+
+.max-year {
+    font-size: smaller;
+}
+
+
+
+
+@keyframes table {
+    0% {
+        transform :translateX(-100%);
+    }
+
+    100% {
+        transform :translateX(0%);
+    }
+}
+
+@keyframes load {
+    0% {
+        transform :translateY(-100%);
+    }
+
+    100% {
+        transform :translateY(0%);
+    }
+}
+
+/* ----------------------------Media query --------------------------------*/
+
+@media only screen and (max-width: 1360px) {
+    .edit-alert {
+        left: 50px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .cars-table {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .max-year {
+        display: none;
+    }
+
+    .cars-table .btn, .cars-table .input {
+        height: 2rem;
+        font-size: .8rem;
+    }
+
+    .cars-table {
+        font-size: .8rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 550px) {
+
+    .cars-table {
+        margin-left: -100px;
+    }
+
+}
