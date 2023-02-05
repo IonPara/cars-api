@@ -6,8 +6,7 @@ import Form from "react-bootstrap/Form";
 import { FaTrashAlt } from "react-icons/fa";
 import { FaImage } from "react-icons/fa";
 import EditAlert from "./Alerts";
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
 // This is a Table component that I took from (https://react-bootstrap.netlify.app/components/table/#rb-docs-content)
 // The component will take five props
 function CarsTable({
@@ -24,13 +23,14 @@ function CarsTable({
 }) {
   const [display, setDisplay] = useState(false);
   const [show, setShow] = useState(0);
-
+  let index = 0;
   // Map through the cars prop and for each item return a row with a cell for each property in the object
   // Add three icons for image, delete and edit
   const map = cars.map((car) => {
+    index++;
     return (
       <tr className="car-item-row" key={car._id}>
-        <td>{car._id}</td>
+        <td>{index}</td>
         <td>{car.make}</td>
         <td>{car.year}</td>
         <td>{car.registration}</td>

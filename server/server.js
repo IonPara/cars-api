@@ -5,7 +5,6 @@ const app = express();
 // Use body-parser middleware to extracts the entire body portion of an incoming request and expose it on req.body
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-console.log(process.env);
 // import dotenv so we could use the key from the app.env file
 require("dotenv").config({ path: "./app.env" });
 // Connect mongoose with the database
