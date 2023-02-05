@@ -7,8 +7,7 @@
 - [Contact](#contact)
 
  ## 📑 General Information:
-This project contains a full stack web application, it was built using MERN (MongoDB, Express, React, Node.js) stack.
-The app pulls the data from the database and display it in form of a table, the app is interactive and it lets the user add a new car, remove a car  and update the information of a car in the app and in the database.
+This project contains a full stack web application, it was built using MERN (MongoDB, Express, React, Node.js) stack. The app pulls the data from the database and displays it in the form of a table, the app is interactive and it lets the user add a new car, remove a car and update the information of a car in the app and in the database.
 
 ### 🔣 <a id="technologies">Technologies used </a>:
 
@@ -27,7 +26,8 @@ The app pulls the data from the database and display it in form of a table, the 
 
 1. [Download Zip file](https://github.com/IonPara/Cars-Store-App/archive/refs/heads/master.zip)
 2. [Download **Node.js**](https://nodejs.org/dist/v18.13.0/node-v18.13.0-x64.msi)
-3. Navigate to project directory, run: **npm start**
+3. Navigate to project directory, run: **npm install**
+4. Run: **npm start**
 
 Runs the app in the development mode.
 
