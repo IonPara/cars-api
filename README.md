@@ -1,4 +1,4 @@
-# Cars-Store-App
+# cars-api
 
 📃 **Content:**
 - [General Information](#General-Information)
@@ -24,7 +24,7 @@ This project contains a full stack web application, it was built using MERN (Mon
 
 ## 📘 <a id="setup">Setup</a>:
 
-1. [Download Zip file](https://github.com/IonPara/Cars-Store-App/archive/refs/heads/master.zip)
+1. [Download Zip file](https://github.com/IonPara/cars-api/archive/refs/heads/master.zip)
 2. [Download **Node.js**](https://nodejs.org/dist/v18.13.0/node-v18.13.0-x64.msi)
 3. Navigate to project's server directory, run: **npm install** **npm start**
 4. Navigate to project's client directory, run: **npm install** **npm start**
